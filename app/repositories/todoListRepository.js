@@ -49,11 +49,11 @@ class TodoListRepository {
     //实现通过id来删除todo纪录的方法
     if(id == todo1.id)
     {
-      delete todo1;
+      todo1=null;
     }
     if(id == todo2.id)
     {
-      delete todo2;
+      todo2=null;
     }
   }
 }
